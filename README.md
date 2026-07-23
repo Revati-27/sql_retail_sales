@@ -115,7 +115,7 @@ limit 10
 
 SELECT COUNT(DISTINCT customer_id) as total_sale FROM retail_sales;
 
-------------------------------------------------------------
+
 select distinct customer_id FROM retail_sales;
 
 select distinct category from retail_sales;
@@ -144,14 +144,13 @@ WHERE category='Clothing'; --( = comparing only one value)....
 
 SELECT * FROM retail_sales;
 
--------------------------------------------------------------
 SELECT SUM(total_sale) from retail_sales
 WHERE category IN ('Clothing','Beauty','Electronics'); 
---------------------------------------------------------------
+
 
 SELECT MAX(total_sale) FROM retail_sales;
 SELECT MIN(total_sale) FROM retail_sales;
-----------------------------------------------
+
 
 
 
