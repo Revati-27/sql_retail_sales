@@ -103,8 +103,11 @@ WHERE
 	total_sale IS NULL;
 ```
 
+
 --DATA EXPLORATION
 
+The following SQL queries were developed to answer specific business questions:
+```
 --Q. How many sales we have ?
 
 SELECT COUNT(*) as total_sale FROM retail_sales;
@@ -258,7 +261,7 @@ SELECT
     COUNT(*) as total_orders    
 FROM hourly_sale
 GROUP BY shift
-
+```
 
 ## Findings
 
