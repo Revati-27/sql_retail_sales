@@ -50,7 +50,7 @@ CREATE TABLE retail_sales(
 - **Category Count**: Identify all unique product categories in the dataset.
 - **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
-'''sql
+```
 select * from retail_sales;
 
 select * from retail_sales
@@ -60,7 +60,8 @@ LIMIT 10;
 select 
   count(*)
 from retail_sales;
-
+```
+```
 --DATA CLEANING
 
 --FINDINGS NULL 
@@ -274,5 +275,6 @@ GROUP BY shift
 
 ## Conclusion
 
-This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries.
+The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
 
