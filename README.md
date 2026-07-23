@@ -20,6 +20,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 - **Database Creation**: The project starts by creating a database named `sql_project_p1_db`.
 - **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
+
 --SQL Retail Sales Analysis
 CREATE DATABASE sql_project_p1;
 
@@ -49,9 +50,8 @@ CREATE TABLE retail_sales(
 - **Category Count**: Identify all unique product categories in the dataset.
 - **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
-
+'''sql
 select * from retail_sales;
-
 
 select * from retail_sales
 LIMIT 10; 
@@ -100,7 +100,7 @@ WHERE
 	cogs IS NULL
 	OR
 	total_sale IS NULL;
-
+```
 
 --DATA EXPLORATION
 
